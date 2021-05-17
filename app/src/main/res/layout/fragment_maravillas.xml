@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maravillas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F51B5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:text="Maravillas Modernas del mundo" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Se denominan las nuevas siete maravillas del mundo moderno a los monumentos que resultaron los ganadores en un concurso público e internacional celebrado en 2007, inspirado en la lista de las siete maravillas del mundo antiguo y realizado por una empresa privada de nombre New Open World Corporation. Más de cien millones de votaciones, a través de Internet y SMS, dieron como resultado esta nueva clasificación. La iniciativa partió del empresario suizo Bernard Weber, fundador de la empresa."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text="Machu Picchu, Perú" />
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="328dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/machu" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Una de las joyas andinas mejor conservadas del imperio inca. Data del siglo XV y se cree que sirvió como antiguo santuario y como residencia del soberano del imperio. Fue levantada sobre un premonitorio rocoso, entre las montañas de Machu Picchu y Huayna Picchu, a unos 2.500 metros sobre el nivel del mar."
+                />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text=" Petra, Jordania:" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/petra" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="La capital del antiguo reino nabateo está esculpida sobre la roca. Es uno de los enclaves arqueológicos más importantes de Jordania, y uno de los más visitados del país. Fue fundada en el siglo VIII a.C y era una de las localidades de paso de la popular Ruta de la Seda" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text="Taj Mahal, India" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/talh" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="El Taj Mahal es, posiblemente, uno de los edificios más románticos del mundo. Fue construido a mediados del siglo XVII por el emperador Shah Jahan como mausoleo para enterrar a su difunta esposa, Arjumand Bano Begum, más conocida como Mumtaz Mahal."/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text="Chichén Itzá, en México" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chique" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Esta antigua ciudad maya es uno de los centros arqueológicos más importantes de la península de Yucantán, en México. Su nombre en maya significa boca del pozo de los itzaes, ya que hace referencia al cenote sagrado que, según las creencias de la época, servía de entrada al inframundo."/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text="El Coliseo, Roma" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/roma" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Este anfiteatro es uno de los tesoros que el Imperio romano ha dejado como herencia a la Ciudad Eterna. También fue el más grande jamás construido, En 1980 fue declarado patrimonio de la humanidad y, a pesar de sus desperfectos tras varios terremotos, hoy en día el Coliseo sigue siendo el monumento más importante de Roma, y único punto de la lista de las 7 maravillas del mundo de Europa."/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text="La Gran Muralla china" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/china" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Es la obra arquitectónica más importante de China, una antigua fortaleza que a los chinos les sirvió como defensa ante los posibles ataques mongoles. En sus orígenes llegó a medir más de 21 mil kilómetros a lo largo del sur de Mongolia, desde la frontera con Corea hasta el desierto de Gobi"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:textSize="20dp"
+                android:text="Cristo Redentor de Río de Janeiro" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cristo" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="El Cristo Redentor es una de las estatuas más famosas del mundo, y también una de las más grandes. Con sus 30 metros de altitud, Jesús de Nazaret acoge con los brazos abiertos la ciudad brasileña de Río de Janeiro, en Brasil. Lo hace desde el cerro del Concorvado, a algo más de 700 metros sobre el nivel del mar desde donde se obtienen unas espectaculares vistas." />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
